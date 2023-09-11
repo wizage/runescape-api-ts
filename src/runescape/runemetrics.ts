@@ -8,7 +8,6 @@ import {
 } from "../lib/runescape"
 import { Jagex } from "../types"
 
-// TODO: Fail spectacularly if their profile is "unavailable" (may just mean they're private)
 export const getMonthlyXp = async (name: string, skill: number | Skill) => {
   if (typeof name !== "string") {
     throw new TypeError("Player name parameter must be a string")

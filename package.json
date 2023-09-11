@@ -6,6 +6,7 @@
   "engines": {
     "node": ">=14.16"
   },
+  "files":["src/*.ts"],
   "maintainers": [
     "wizages <wizagesmax@gmail.com>"
   ],
