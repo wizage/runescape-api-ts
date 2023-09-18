@@ -1,13 +1,10 @@
 {
   "name": "runescape-api-ts",
-  "version": "2.0.0",
+  "version": "2.0.0-1",
   "author": "wizages, Joshua Filby",
   "engines": {
     "node": ">=14.16"
   },
-  "files": [
-    "src/*.ts"
-  ],
   "maintainers": [
     "wizages <wizagesmax@gmail.com>"
   ],
@@ -20,8 +17,9 @@
     "Runescape 3"
   ],
   "description": "Unofficial API Wrapper for Runescape",
-  "exports": "./build/source/index.js",
-  "types": "./build/source/index.d.ts",
+  "main": "./build/runescape-api-ts.js",
+  "browser": "./build/runescape-api-ts.js",
+  "types": "./build/runescape-api-ts.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@jest/globals": "^29.6.4",
